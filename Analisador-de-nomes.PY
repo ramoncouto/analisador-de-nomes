@@ -1,0 +1,8 @@
+nome = input('Nome completo: ')
+tamanho = len(nome)
+espacos = nome.count(' ')
+nomedividido = nome.split()
+print(f'Nome com todas maiúsculas: {nome.upper()}')
+print(f'Nome com todas minúsculas: {nome.lower()}')
+print(f'Total de letras sem espaços: {tamanho - espacos}')
+print(f'O primeiro nome tem {len(nomedividido[0])} letras.')
